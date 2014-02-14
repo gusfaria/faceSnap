@@ -152,7 +152,8 @@ void testApp::draw(){
 //            string dir = "/Users/gusfaria11/Documents/openframeworks_v0.8.0/apps/thesis/PhotoFace/bin/data/img/";
 //            string dir = "/Users/gusfaria11/Documents/openframeworks_v0.8.0/apps/thesis/RT_FaceDetect/bin/data/faces/";
             
-            string dir = "/Users/gusfaria11/Documents/ofx_v0.8.0/apps/thesis/RT_FaceDetect/bin/data/faces";
+            string dir = "/Users/gusfaria11/Documents/ofx_v0.8.0/apps/thesis/RT_FaceDetect/bin/data/faces/";
+            
 //            if(typeStr == ""){
 //                fileName = "snapshot_"+ofToString(10000+snapCounter)+".png";
 //            } else {
@@ -163,7 +164,8 @@ void testApp::draw(){
             sprintf(snapString, "saved %s", fileName.c_str());
             
             //send text to another file.
-            string mydir = "/Users/gusfaria11/Documents/openframeworks_v0.8.0/apps/thesis/RT_FaceDetect/bin/data/train2.txt";
+//            string mydir = "/Users/gusfaria11/Documents/openframeworks_v0.8.0/apps/thesis/RT_FaceDetect/bin/data/train2.txt";
+            string mydir = "/Users/gusfaria11/Documents/ofx_v0.8.0/apps/thesis/RT_FaceDetect/bin/data/train2.txt";
 //            myfile.open(mydir);
 //            string str = "HELLO its me again!\n";
 //            cout << str.length() << endl;
